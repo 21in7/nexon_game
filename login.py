@@ -3,6 +3,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 import sys
 
+# 인터넷 익스플로러 드라이버 위치
 driver = webdriver.Ie('')
 print("프로그램 실행중....")
 
@@ -26,10 +27,12 @@ finally:
 
 while driver.get:
     nx_id.clear()
-    nx_id.send_keys("rlgur95")
+    # 넥슨 아이디
+    nx_id.send_keys("")
 
     nx_pw.clear()
-    nx_pw.send_keys("ga1stade1!")
+    # 넥슨 비밀번호
+    nx_pw.send_keys("")
 
     nx_sumbit.click()
     break
