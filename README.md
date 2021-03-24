@@ -1,5 +1,6 @@
 # nexon_game
 iedriver 링크 : https://www.selenium.dev/downloads/
+
 chromeDriver 링크 : https://chromedriver.chromium.org/downloads
 
 크롬으로는 테스트 안해봤습니다.
